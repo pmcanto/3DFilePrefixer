@@ -52,40 +52,40 @@ Saída:
 ## Exemplo de Uso
 
 ### Antes:
-'''
+```
 /pasta_do_programa
     3DFilePrefixer.exe
     arquivo1.stl
     arquivo2.obj
     arquivo3.txt
-'''
+```
 ### Após Executar o Programa:
 - O usuário insere o número 2.
 
 ### Resultado:
-'''
+```
 /pasta_do_programa
     3DFilePrefixer.exe
     2x arquivo1.stl
     2x arquivo2.obj
     arquivo3.txt
-'''
+```
 
 ## Construindo o Executável (Opcional)
 Se você quiser construir o arquivo .exe por conta própria ou depois de alguma mudança no .py:
 
 1. Instale o PyInstaller:
-   '''
+   ```
    pip install pyinstaller
-   '''
+   ```
 3. Navegue até o diretório do script:
-   '''
+   ```
    cd caminho\para\diretório
-   '''
+   ```
 5. Construa o executável:
-   '''
+   ```
    pyinstaller --onefile 3DFilePrefixer.py
-   '''
+   ```
 7. O arquivo .exe será gerado na pasta dist.
 
 ## Licença
@@ -93,8 +93,6 @@ Este projeto está licenciado sob a Licença MIT.
 
 ## Contribuindo
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
----
 
 ## Suporte
 Se você encontrar algum problema ou tiver dúvidas, abra uma issue no GitHub.
